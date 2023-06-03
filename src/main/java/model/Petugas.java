@@ -8,6 +8,10 @@ public class Petugas {
 
     public Petugas(int aInt, String string, String string1, String string2) {
     }
+
+    public Petugas() {
+    }
+    
     
     
 
