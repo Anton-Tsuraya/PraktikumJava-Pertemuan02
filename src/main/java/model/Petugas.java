@@ -11,10 +11,7 @@ public class Petugas {
 
     public Petugas() {
     }
-    
-    
-    
-
+      
     public int getId() {
         return id;
     }
