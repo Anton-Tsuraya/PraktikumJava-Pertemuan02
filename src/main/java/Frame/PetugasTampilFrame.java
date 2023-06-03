@@ -214,7 +214,7 @@ public class PetugasTampilFrame extends javax.swing.JFrame {
                     TableModel model = tPetugas.getModel();
                     Koneksi koneksi = new Koneksi();
                     Connection con = koneksi.getConnection();
-                    String executeQuery = "delete form petugas where id=?";
+                    String executeQuery = "delete form petugas where id =?";
                     PreparedStatement ps = con.prepareStatement(executeQuery);
                     ps.setString(1, model.getValueAt(i, 0).toString());
                     ps.executeUpdate();
