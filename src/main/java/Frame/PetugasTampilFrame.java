@@ -197,7 +197,7 @@ public class PetugasTampilFrame extends javax.swing.JFrame {
     private void bCariActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bCariActionPerformed
         // TODO add your handling code here:
         resetTable("WHERE nama_petugas like '%"+eCari.getText()+"%' OR"
-                          + "username like '%" +eCari.getText()+"%'");
+                          +"username like '%"+eCari.getText()+"%'");
     }//GEN-LAST:event_bCariActionPerformed
 
     private void bHapusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bHapusActionPerformed
