@@ -177,8 +177,8 @@ public class PenerbitTampilFrame extends JFrame {
                 if(i >= 0){
                     TableModel model = tPenerbit.getModel();
                     penerbit       = new Penerbit();
-                    penerbit.setId(Integer.parseInt(model.getValueAt(1, 0).toString()));
-                    penerbit.setPenerbit(model.getValueAt(1, 0).toString());
+                    penerbit.setId(Integer.parseInt(model.getValueAt(i, 0).toString()));
+                    penerbit.setPenerbit(model.getValueAt(i, 1).toString());
                     PenerbitTambahFrame penerbitTambahFrame = new PenerbitTambahFrame(penerbit);
                 } else{
                     JOptionPane.showMessageDialog(null,"Pilih Data Yang Ingin di Ubah");
